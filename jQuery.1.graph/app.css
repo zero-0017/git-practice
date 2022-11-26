@@ -1,0 +1,29 @@
+#progress {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    background: #7d7c7c;
+    text-align: center;
+    color: #fff;
+}
+#progress-bar{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 999;
+    width: 30%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 40px;
+}
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 30px;
+}
